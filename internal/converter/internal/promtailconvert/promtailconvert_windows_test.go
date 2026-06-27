@@ -8,7 +8,7 @@ import (
 
 	"github.com/grafana/alloy/internal/converter/internal/promtailconvert"
 	"github.com/grafana/alloy/internal/converter/internal/test_common"
-	_ "github.com/grafana/alloy/internal/static/metrics/instance" // Imported to override default values via the init function.
+	// _ "github.com/grafana/alloy/internal/static/metrics/instance" // Imported to override default values via the init function.
 )
 
 // Set this flag to update snapshots e.g. `go test -v ./interal/converter/internal/promtailconverter/...` -fix-tests
